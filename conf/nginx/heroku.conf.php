@@ -8,7 +8,7 @@ http {
 
     #access_log  logs/access.log  main;
     
-    max_body_size: "20M";
+    client_max_body_size 20M;
 
     sendfile        on;
     #tcp_nopush     on;
