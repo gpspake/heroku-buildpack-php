@@ -6,7 +6,7 @@ http {
     #                  '$status $body_bytes_sent "$http_referer" '
     #                  '"$http_user_agent" "$http_x_forwarded_for"';
 
-    #access_log  logs/access.log  main;
+    access_log  logs/access.log  main;
     
     client_max_body_size 20m;
 
