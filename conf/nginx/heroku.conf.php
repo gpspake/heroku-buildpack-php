@@ -7,6 +7,8 @@ http {
     #                  '"$http_user_agent" "$http_x_forwarded_for"';
 
     #access_log  logs/access.log  main;
+    
+    max_body_size: "5M";
 
     sendfile        on;
     #tcp_nopush     on;
